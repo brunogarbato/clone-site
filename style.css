@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+.mail-phone {
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+#telefone {
+    transform: scaleX(-1);
+    
+}
+
+
+
+.icones {
+    width: 20px;
+}
+#pesquisa {
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav p {
+    font-size: 14px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+#inicio {
+    color: rgb(14, 177, 141);
+}
+
+.abas ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    
+}
+
+.abas li:hover {
+    cursor: pointer;
+    color: rgb(190, 161, 87);
+    transition: 0.3s;
+}
+
+.reserve-agora {
+    background-color: #01B299;
+    padding: 13px 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+}
+
+.hotel-image {
+    background: url(imagens/hotel-de-luxo-moderno-e-recepcao-e-lounge-com-sala-de-reunioes.jpg) no-repeat bottom center / cover;
+    width: 100%;
+    height: 450px;
+    position: relative
+}
+
+.botao-reserva {
+    background-color: #01B299;
+    display: inline-block;
+    position: absolute;
+    padding: 17px 35px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
+    top: 75%;
+    left: 50%;
+    font-weight: 600;
+    
+    transform: translate(-50%, -50%);
+}
+
+.sobre {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-texto {
+    width: 520px;
+    padding: 20px;
+}
+
+.sobre-texto h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sobre-texto p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+.grid-images {
+    display: grid;
+    width: 700px;
+    height: 550px;
+    grid-template: 350px 120px / repeat(5, 120px);
+    gap: 10px;
+    overflow: hidden;
+    
+}
+
+.grid-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#corredor {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+#interior {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#quarto {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#recepcao {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+#vista-hotel {
+    grid-area: 1 / 1 / 2 / 6;
+    
+}
+
+#quarto02 {
+    grid-area: 2 / 5 / 3 / 6;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(236, 236, 236);
+    align-items: center;
+    justify-content: center;
+}
+
+.servicos h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.servicos p {
+    margin-bottom: 30px;
+    color: #8181819f;
+    font-weight: 600;
+}
+
+.beneficios {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.itens-beneficios {
+    background-color: white;
+    padding: 50px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.itens-beneficios img {
+    width: 50px;
+}
+
+
+
+
