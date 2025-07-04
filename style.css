@@ -89,10 +89,11 @@ header {
     border-radius: 10px;
     font-weight: 600;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+    cursor: pointer;
 }
 
 .hotel-image {
-    background: url(imagens/hotel-de-luxo-moderno-e-recepcao-e-lounge-com-sala-de-reunioes.jpg) no-repeat bottom center / cover;
+    background: url(imagens/hotel-de-luxo-moderno-e-recepcao-e-lounge-com-sala-de-reunioes.jpg) no-repeat center center / cover;
     width: 100%;
     height: 450px;
     position: relative
@@ -109,7 +110,7 @@ header {
     top: 75%;
     left: 50%;
     font-weight: 600;
-    
+    cursor: pointer;
     transform: translate(-50%, -50%);
 }
 
@@ -182,7 +183,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: rgb(236, 236, 236);
     align-items: center;
     justify-content: center;
@@ -198,6 +199,10 @@ header {
     margin-bottom: 30px;
     color: #8181819f;
     font-weight: 600;
+}
+
+.beneficios p {
+    color: black;
 }
 
 .beneficios {
@@ -219,6 +224,85 @@ header {
 
 .itens-beneficios img {
     width: 50px;
+    margin-bottom: 20px;
+}
+
+
+.categorias {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.categorias h2 {
+    text-align: center;
+}
+
+.categorias h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+.apartamentos {
+    display: flex;
+    gap: 20px;
+    width: 1100px;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.quartos {
+    background-color: rgba(238, 238, 238, 0.685);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    width: 330px;
+}
+
+
+.quartos h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: start;
+    padding: 0;;
+}
+
+.quartos p {
+    font-size: 13px;
+    color: #272727bd;
+    margin-bottom: 15px;
+}
+
+.quartos img {
+    width: 289px;
+    margin-bottom: 15px;
+
+}
+
+.quarto-reserva {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    width: 110px;
+    text-align: center;
+    border-radius: 3px;
+    
+}
+
+.elementor-divide {
+    width: 45px;
+    height: 2px;
+    background-color: #000000;
+    margin-bottom: 15px;
+}
+
+#img-executivo {
+    height: 216px;  
 }
 
 
