@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logo-hotel.jpg" type="image/x-icon">
     <title>Hotel</title>
 </head>
 <body>
     <nav>
-            <div class="mail-phone">
-                <img src="svgs/call_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="telefone" id="telefone">
-                <p>44 3018-8100</p>
-                <img src="svgs/mail_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="email">
-                <p>reservas@hoteldiamond.com.br</p>
+            <div class="nav-itens">
+                <div class="mail-phone">
+                    <img src="svgs/call_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="telefone" id="telefone">
+                    <p>44 3018-8100</p>
+                    <img src="svgs/mail_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="email">
+                    <p>reservas@hoteldiamond.com.br</p>
+                </div>
+                <ul class="menu">
+                    <img src="svgs/search_24dp_D9D9D9_FILL0_wght400_GRAD0_opsz24.svg" alt="pesquisa" id="pesquisa">
+                    <li><a href="https://www.facebook.com/CianorteDiamondHotel/" target="_blank"><img src="svgs/facebook.svg" alt="facebook" class="icones"></a></li>
+                    <li><a href="https://www.instagram.com/hoteldiamondcianorte/" target="_blank"><img src="svgs/instagram_dark.svg" alt="instagram" class="icones"></a></li>
+                    <li><a href="#"><img src="svgs/whatsapp.svg" alt="whatsapp" class="icones"></a></li>
+                </ul>
             </div>
-            <ul class="menu">
-                <img src="svgs/search_24dp_D9D9D9_FILL0_wght400_GRAD0_opsz24.svg" alt="pesquisa" id="pesquisa">
-                <li><a href="https://www.facebook.com/CianorteDiamondHotel/" target="_blank"><img src="svgs/facebook.svg" alt="facebook" class="icones"></a></li>
-                <li><a href="https://www.instagram.com/hoteldiamondcianorte/" target="_blank"><img src="svgs/instagram_dark.svg" alt="instagram" class="icones"></a></li>
-                <li><a href="#"><img src="svgs/whatsapp.svg" alt="whatsapp" class="icones"></a></li>
-            </ul>
         </nav> 
 
         <header>
@@ -96,13 +99,6 @@
                             <p>O Quarto Superior é a opção mais refinada do nosso hotel, proporcionando uma experiência luxuoso para hóspedes que buscam conforto excepcional.</p>
                             <div class="quarto-reserva">Reservar</div>
                 </div>
-                <div class="quartos"> 
-                    <img src="imagens/economico.jpg" alt="economico">
-                    <h2>Econômico Casal</h2>
-                            <div class="elementor-divide"></div>
-                            <p>O Quarto Econômico Casal é uma opção acolhedora e acessível para casais que valorizam a simplicidade.</p>
-                            <div class="quarto-reserva">Reservar</div>
-                </div>
                     <div class="quartos">
                         <img src="imagens/suite-master.jpg" alt="Suite master hotel">
                         <h2>Suíte Master</h2>
@@ -113,6 +109,42 @@
                 </div>
         </section>
 
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384.1367643250171!2d-52.608220620339516!3d-23.65644660897903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed5a0534d697f9%3A0x51c0d062d9ce9e6a!2sHotel%20Cianorte%20Diamond!5e0!3m2!1spt-BR!2sbr!4v1752000881303!5m2!1spt-BR!2sbr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+            
+                <section class="descricao">
+                    <div class="descricao-texto">
+                    <img src="imagens/logo-hotel.jpg" alt="logo-hotel" id="logo-hotel">
+                    <p>O Cianorte Diamond Hotel conta com apartamentos tipo flat, planejados e decorados com elegância e bom gosto</p>
+                    <div class="imagens">
+                        <img src="svgs/facebook.svg" alt="facebook">
+                        <img src="svgs/instagram.svg" alt="instagram">
+                        <img src="svgs/whatsapp.svg" alt="whatsapp">
+                    </div>
+                        </div>
+                    <div class="sobre-hotel">
+                        <h3>Sobre o Hotel</h3>
+                        <ul type="none">
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">Suites</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Gastronomia</a></li>
+                        </ul>
+                    </div>
+                    <form action="fodase" class="formulario">
+                        <h3>Quer receber promoções?</h3>
+                        <input type="text" name="nome" id="nome" placeholder="Nome">
+                        <input type="email" name="iemail" id="email" placeholder="Email">
+                        <input type="submit" value="EU QUERO" id="enviar">
+                    </form>
+                    </section>
                 
+                    <footer>
+                        <p>&copy; 2024 TODOS OS DIREITOS RESERVADOS</p>
+                        <p>BRUNO DEV</p>
+                    </footer>
 </body>
 </html>

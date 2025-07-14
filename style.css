@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -36,12 +35,19 @@
 }
 
 nav {
-    display: flex;
-    width: 100vw;
     background-color: black;
-    justify-content: space-around;
-    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     
+}
+
+.nav-itens {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    justify-content: space-between;
 }
 
 nav p {
@@ -135,12 +141,12 @@ header {
 .sobre-texto p {
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    color: #858585;
 }
 .grid-images {
     display: grid;
     width: 700px;
-    height: 550px;
+    height: 450px;
     grid-template: 350px 120px / repeat(5, 120px);
     gap: 10px;
     overflow: hidden;
@@ -190,7 +196,7 @@ header {
 }
 
 .servicos h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -232,25 +238,21 @@ header {
     display: flex;  
     flex-direction: column;
     align-items: center;
+    height: 750px;
 }
 
 .categorias h2 {
-    text-align: center;
-}
-
-.categorias h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 10px;
     padding: 50px;
+    text-align: center;
 }
 
 .apartamentos {
     display: flex;
-    gap: 20px;
-    width: 1100px;
-    flex-wrap: wrap;
-    
+    gap: 50px;
+    flex-wrap: wrap;  
 }
 
 
@@ -261,6 +263,7 @@ header {
     flex-direction: column;
     padding: 30px 20px;
     width: 330px;
+    
 }
 
 
@@ -301,8 +304,99 @@ header {
     margin-bottom: 15px;
 }
 
+.mapa {
+    border-bottom: 3px solid black;
+}
+
 #img-executivo {
     height: 216px;  
+}
+
+#logo-hotel {
+    width: 130px;
+}
+.descricao img {
+    width: 20px;
+}
+
+.descricao h3 {
+    font-weight: 500;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 100px;
+}
+
+.descricao-texto {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.descricao-texto p {
+    font-size: 14px;
+    color: #5c5c5cbd;
+}
+
+.descricao-texto .imagens {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.sobre-hotel{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+    align-items: flex-start;
+}
+
+.sobre-hotel li > a {
+    color: #0a0a0abd ;
+    text-decoration: none;
+    
+}
+
+.sobre-hotel li {
+    margin-bottom: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #b3b3b3;
+    font-size: 13px;
+    
+}
+
+#enviar {
+    color: white;
+    background-color: black;
+    letter-spacing: 5px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(180, 180, 180, 0.178);
+    color: rgb(136, 136, 136);
+    font-size: 13px;
+    font-weight: 300;
+    padding: 15px;
 }
 
 
